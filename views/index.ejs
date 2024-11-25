@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./components/header.ejs", { title: "Home" }) %>
+<script src="/assets/js/bundle_error.js"></script>
+ <body class="bg-neutral-900">
+    <div class="bg-gradient-to-b from-purple-600 to-purple-800 text-white min-h-screen flex flex-col items-center">
+        <header class="w-full flex justify-end p-4">
+          <nav class="flex gap-6">
+            <a href="#" class="text-white">Home</a>
+            <a href="#" class="text-white">Blog</a>
+            <a href="#" class="text-white">Status</a>
+          </nav>
+          <div class="ml-4 w-10 h-10 rounded-full bg-cover bg-center" style="background-image: url('path-to-avatar.jpg');"></div>
+        </header>
+        <main class="flex-grow flex flex-col items-center justify-center text-center">
+          <h1 class="text-4xl md:text-6xl font-bold">Level up your discord server</h1>
+          <p class="mt-4 text-lg md:text-xl">Upgrade your community with PotatoBot, one of the best open-source Discord bots ever</p>
+          <div class="mt-6 w-40 h-12 bg-black"></div>
+        </main>
+      </div>
+ </body>
+</html>
